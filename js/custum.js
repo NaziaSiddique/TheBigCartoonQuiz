@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 //Questions for the quiz
 let questions = [
     {
@@ -211,8 +212,8 @@ let questions = [
   
     // set onclick attribute to all available options
   
-    for (i = 0; i < option.length; i++) {
-      option[i].setAttribute('onclick', 'optionSelected(this)');
+    for (let i = 0; i < option.length; i++) {
+      option[i].addEventListener('click', optionSelected);
     }
   }
   // creating the new div tags which for icons
@@ -222,7 +223,8 @@ let questions = [
   
   //if user clicked on option
   
-  function optionSelected(answer) {
+  function optionSelected(evt) {
+    let answer = evt.target;
     clearInterval(counter); //clear counter
     clearInterval(counterLine); //clear counterLine
     let userAns = answer.textContent; //getting user selected option
@@ -241,7 +243,7 @@ let questions = [
       answer.insertAdjacentHTML('beforeend', crossIconTag); //adding cross icon to correct selected option
       console.log('Wrong Answer');
   
-      for (i = 0; i < allOptions; i++) {
+      for (let i = 0; i < allOptions; i++) {
         if (option_list.children[i].textContent == correcAns) {
           //if there is an option which is matched to an array answer
           option_list.children[i].setAttribute('class', 'option correct'); //adding green color to matched option
@@ -250,7 +252,7 @@ let questions = [
         }
       }
     }
-    for (i = 0; i < allOptions; i++) {
+    for (let i = 0; i < allOptions; i++) {
       option_list.children[i].classList.add('disabled'); //once user select an option then disabled all options
     }
     next_btn.classList.add('show'); //show the next button if user selected any option
@@ -344,7 +346,7 @@ let questions = [
         timeText.textContent = 'Time Off'; //change the time text to time off
         const allOptions = option_list.children.length; //getting all option items
         let correcAns = questions[que_count].answer; //getting correct answer from array
-        for (i = 0; i < allOptions; i++) {
+        for (let i = 0; i < allOptions; i++) {
           if (option_list.children[i].textContent == correcAns) {
             //if there is an option which is matched to an array answer
             option_list.children[i].setAttribute('class', 'option correct'); //adding green color to matched option
@@ -352,7 +354,7 @@ let questions = [
             console.log('Time Off: Auto selected correct answer.');
           }
         }
-        for (i = 0; i < allOptions; i++) {
+        for (let i = 0; i < allOptions; i++) {
           option_list.children[i].classList.add('disabled'); //once user select an option then disabled all options
         }
         next_btn.classList.add('show'); //show the next button if user selected any option
