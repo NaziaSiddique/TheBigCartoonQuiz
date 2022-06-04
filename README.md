@@ -5,7 +5,7 @@
 
 <img width="952" alt="Screenshot 2022-04-29 at 19 19 20" src="https://user-images.githubusercontent.com/36114589/166008115-38598a5a-a3d0-4bd0-961b-d5c48f217d4d.png">
 
-[View the live project here](https://naziasiddique.github.io/CartoonQuiz)
+[View the live project here]([https://naziasiddique.github.io/CartoonQuiz](https://naziasiddique.github.io/TheBigCartoonQuiz/))
 
 ## Index – Table of Contents
 
