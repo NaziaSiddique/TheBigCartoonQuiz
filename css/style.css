@@ -709,3 +709,16 @@ footer button.show {
     width: 85%;
   }
 }
+
+/* 404 Page */
+
+.banner .btn-primary {
+  background-color: #371a46;
+  border: 1px solid #371a46;
+  color: #fff;
+  padding: 15px 40px;
+}
+.banner .btn-primary:hover {
+  background-color: transparent;
+  color: #371a46;
+}
