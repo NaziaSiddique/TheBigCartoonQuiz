@@ -258,24 +258,49 @@ I then the website on https://jigsaw.w3.org/css-validator/
 
 <img width="1621" alt="Screenshot 2022-06-04 at 23 02 20" src="https://user-images.githubusercontent.com/36114589/172026810-6ae0f602-99db-495c-9c64-ddc99e45eaff.png">
 
+<img width="1621" alt="Screenshot 2022-06-04 at 23 10 15" src="https://user-images.githubusercontent.com/36114589/172026987-5b147e90-261d-4f5b-a947-6e7bfe0d732f.png">
+
 I used Google Lighthouse to do further validation, as shown in the screenshots below.
 
+<img width="1621" alt="Screenshot 2022-06-04 at 23 06 46" src="https://user-images.githubusercontent.com/36114589/172026903-37b6363e-e8cc-4ac3-aac6-a36f5be51c28.png">
 
-<img width="1638" alt="Screenshot 2022-04-29 at 17 01 50" src="https://user-images.githubusercontent.com/36114589/166068265-831dbb56-006f-4fea-89c4-e8bcd847c487.png">
+<img width="1621" alt="Screenshot 2022-06-04 at 23 08 25" src="https://user-images.githubusercontent.com/36114589/172026934-d4984f7c-a119-41b5-8a75-fa64937c4c1f.png">
 
-<img width="1638" alt="Screenshot 2022-04-29 at 17 05 33" src="https://user-images.githubusercontent.com/36114589/166068278-12c417d5-8e88-45cd-aa2d-4b4b92fdbd6e.png">
+<img width="1621" alt="Screenshot 2022-06-04 at 23 09 23" src="https://user-images.githubusercontent.com/36114589/172026957-8d58e6fd-08f1-4452-9625-b03a0dde5317.png">
+
 
 I also used: https://wave.webaim.org, the screenshots below show the errors before I removed the main errors and after.
+
+<img width="1621" alt="Screenshot 2022-06-04 at 23 11 54" src="https://user-images.githubusercontent.com/36114589/172027019-ed76f0d5-e8f1-4a06-be95-5770fd66bc86.png">
 
 <img width="1638" alt="Screenshot 2022-04-29 at 17 34 02" src="https://user-images.githubusercontent.com/36114589/166068532-a8bb9f40-4e47-4b24-a50a-4c0cfc54fc48.png">
 
 <img width="1638" alt="Screenshot 2022-04-29 at 19 09 50" src="https://user-images.githubusercontent.com/36114589/166068547-333a7f0a-30b1-4c14-902b-0944be89c628.png">
 
+I used JShint to check for any errors. https://jshint.com/
+Initially a few errors were found, however these were removed.
+
+![image](https://user-images.githubusercontent.com/36114589/172027038-5d0411cd-eff7-4463-a83e-fdcfb5a40ce2.png)
+
+![image](https://user-images.githubusercontent.com/36114589/172027056-706d8723-ccdf-491b-9bbb-385ed0ab0d95.png)
+
+After removing all errors:
+
+<img width="1621" alt="Screenshot 2022-06-04 at 23 16 02" src="https://user-images.githubusercontent.com/36114589/172027093-d930664a-cbad-4446-b17c-a9bdd562db15.png">
+
 **Am I Responsive**
 
-<img width="952" alt="Screenshot 2022-04-29 at 19 19 20" src="https://user-images.githubusercontent.com/36114589/166069443-fc63fe00-d2e5-4019-a3c5-03749379a857.png">
+<img width="1260" alt="Screenshot 2022-06-04 at 23 17 48" src="https://user-images.githubusercontent.com/36114589/172027131-871a5a31-2b2d-4ba9-97e5-bf87c1ae266f.png">
+
 
 **Known Bugs
+
+There was a persistent error that repeatedly showed up on the 'Contact' and the '404' pages, however, once the JS script file was removed from their html page, the errors disappeared.
+
+<img width="1672" alt="Screenshot 2022-06-03 at 19 38 27" src="https://user-images.githubusercontent.com/36114589/172027208-daad80a0-175d-4f86-9ed1-ce8ef308e8b3.png">
+
+<img width="848" alt="Screenshot 2022-06-04 at 14 31 17" src="https://user-images.githubusercontent.com/36114589/172027209-c95cadf9-898f-4246-b3b7-e8d02cd32692.png">
+
 
 • Currently no known bugs.
 
