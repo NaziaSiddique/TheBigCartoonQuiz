@@ -222,21 +222,23 @@ Store user scores
 
 Languages Used
 
-•	HTML5
-•	CSS3
-•	Javascript
-•	Bootstrap
+•	[HTML5](https://en.wikipedia.org/wiki/HTML5)
+•	[CSS3](https://en.wikipedia.org/wiki/CSS)
+•	[Javascript](https://en.wikipedia.org/wiki/JavaScript)
+•	[Bootstrap](https://getbootstrap.com/)
+• [JQuery](https://jquery.com/)
+• [CDN](https://cdnjs.com/)
 
 Frameworks, Libraries & Programs Used
 
-•	Google Fonts - was used to import the Bungee font 
-•	Google Images – this was used to obtain the character images used on the website
-•	Gitpod – Gitpod was used as the IDE to develop and code this website
-•	GitHub - is used as the repository for the projects code after being pushed from Gitpod
-•	BootstrapCDN - The website uses Bootstrap4 to simplify the structure and makes it mobile friendly and responsive
-•	Illustrator – this was used to design the website and the logo
-•	Balsamiq: was used to create the wireframes during the design process
-
+•	[Google Fonts](https://fonts.google.com/) - was used to import the Bungee font 
+•	[Google Images](https://www.google.co.uk/imghp?hl=en&ogbl) – this was used to obtain the character images used on the website
+•	[Gitpod](https://gitpod.io/workspaces) – Gitpod was used as the IDE to develop and code this website
+•	[GitHub](https://github.com) - is used as the repository for the projects code after being pushed from Gitpod
+  [Git](https://git-scm.com/) - was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
+•	[Bootstrap](https://getbootstrap.com/) - The website uses Bootstrap4 to simplify the structure and makes it mobile friendly and responsive
+•	[Illustrator](https://www.adobe.com/uk/products/illustrator.html?mv=search&mv=search&sdid=KCJMVLF6&ef_id=Cj0KCQjwheyUBhD-ARIsAHJNM-PrPskmetfx_x3IOQtHtu_2J3Cd2rT16aQk-TBEfrPW86J5d-jaQS4aAqwzEALw_wcB:G:s&s_kwcid=AL!3085!3!520938467018!e!!g!!illustrator!1426208085!56320331672&gclid=Cj0KCQjwheyUBhD-ARIsAHJNM-PrPskmetfx_x3IOQtHtu_2J3Cd2rT16aQk-TBEfrPW86J5d-jaQS4aAqwzEALw_wcB) – this was used to design the website and the logo
+•	[Balsamiq](https://balsamiq.com/) - was used to create the wireframes during the design process
 
 
 ## Testing
@@ -244,9 +246,17 @@ Frameworks, Libraries & Programs Used
 I first tested this website on https://validator.w3.org/ 
 Initially there were some errors and warnings, regarding alt texts for images and using 'section' instead of a div in the index file, however, I removed these errors as can be seen in the screenshots below.
 
-<img width="1638" alt="Screenshot 2022-04-29 at 16 27 21" src="https://user-images.githubusercontent.com/36114589/166068133-27540fd6-5a41-496e-8069-87a878ce9969.png">
+<img width="1621" alt="Screenshot 2022-06-04 at 22 56 44" src="https://user-images.githubusercontent.com/36114589/172026667-d75ad667-a49c-4e13-91ef-753ba83218e6.png">
 
-<img width="1638" alt="Screenshot 2022-04-29 at 16 29 41" src="https://user-images.githubusercontent.com/36114589/166068159-7394ff3f-ea0a-496e-91e0-df1e675daf1c.png">
+<img width="1621" alt="Screenshot 2022-06-04 at 22 58 00" src="https://user-images.githubusercontent.com/36114589/172026693-35351274-e893-40d5-bdb4-c9f3e30adbf3.png">
+
+<img width="1621" alt="Screenshot 2022-06-04 at 22 58 45" src="https://user-images.githubusercontent.com/36114589/172026715-21b56065-f267-4d96-8718-87c0c137ee06.png">
+
+I then the website on https://jigsaw.w3.org/css-validator/
+
+<img width="1621" alt="Screenshot 2022-06-04 at 23 00 33" src="https://user-images.githubusercontent.com/36114589/172026763-ec6c48f5-3432-461e-bbb4-582613eddc4d.png">
+
+<img width="1621" alt="Screenshot 2022-06-04 at 23 02 20" src="https://user-images.githubusercontent.com/36114589/172026810-6ae0f602-99db-495c-9c64-ddc99e45eaff.png">
 
 I used Google Lighthouse to do further validation, as shown in the screenshots below.
 
@@ -265,8 +275,11 @@ I also used: https://wave.webaim.org, the screenshots below show the errors befo
 
 <img width="952" alt="Screenshot 2022-04-29 at 19 19 20" src="https://user-images.githubusercontent.com/36114589/166069443-fc63fe00-d2e5-4019-a3c5-03749379a857.png">
 
+**Known Bugs
 
-(I was unable to do the Jest testing due to the module being added quite late and not having enough time to test it. Have discussed and been advised, if ms2 is referred, to do the Jest testing then.)
+• Currently no known bugs.
+
+(I was unable to do the Jest testing due to the module being added quite late and not having enough time to test it. Have discussed and been advised, for ms2, testing will not be marked)
 
 ## Deployment 
 
@@ -274,7 +287,7 @@ This project was built using Gitpod and pushed to GitHub using the in-built func
 
 To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
 1.	Log into GitHub
-2.	From the list of repositories on the screen, select NaziaSiddique/CartoonQuiz
+2.	From the list of repositories on the screen, select NaziaSiddique/TheBigCartoonQuiz
 3.	From the menu items near the top of the page, select Settings
 4.	Scroll down to the GitHub Pages section
 5.	Under Source click the drop-down menu labelled None and select Main
@@ -328,6 +341,7 @@ https://logolook.net/avengers-logo/
 
 Kung Fu Panda & The Furious Five
 https://listofdeaths.fandom.com/wiki/Kung_Fu_Panda
+
 Code
 •	All code on this website (HTML, CSS & JS) is my own 
 
@@ -339,7 +353,7 @@ Acknowledgements
 
 • My colleagues from work who became my user testers for this project and finding spelling errors and bugs.
 
-•	My mentor Brian Macharia helped and supported me by suggesting some ideas for the project
+•	My mentor Brian Macharia helped and supported me by suggesting some ideas for the project & for his ongoing help and feedback. He has provided me with lots of tips and resources to help improve my coding and testing.
 
 
 Disclaimer
