@@ -25,6 +25,16 @@ The Big Cartoon Quiz is an online multi-option quiz game. The user initially lan
 
 The current questions on the quiz are well suited for players of any age and die-hard cartoon fans will more than likely be able to get a good score. A potential future feature could be adding topics to the quiz an letting users pick the exact movie, character or genre they want to answer questions on and having separate quizzes for each topic. I could also add various difficulty levels for users who really want to challenge themselves i.e., easy, medium, and hard. I would also like to implement live user boards for players who have taken the quiz, to make the challenge a little more interactive for competitive users, and then highest and fastest score to date, for teh competitive users to try and beat.
 
+Justification:
+
+I chose to build a cartoon themed quiz, as its something I enjoy watching with my kids. The concept for all the questions of the quiz were inspired by my love and my children’s love of cartoons. The concept of choosing a 'quiz' was based on asking multiple members of family, work colleagues and some research online. Quizzes are not only fun but can be educational: https://www.educationquizzes.com/knowledge-bank/why-are-quizzes-valuable-in-education/
+
+Quizzes have always been popular, whether its at a party, revision for school, work fun or breaking the ice. During the lockdown these became increasingly popular: https://www.bbc.com/culture/article/20200501-why-are-we-so-obsessed-with-quizzing 
+
+Quizzes are engaging and whether we are participating or just viewing, the demand never ends: https://www.radiotimes.com/tv/drama/quiz-becomes-biggest-tv-drama-of-the-year-so-far/
+
+The choice of questions were based solely on cartoons, the most popular and engaging cartoons that we found on many websites were favourites. I find the subject to be Universally friendly. All adults and children can participate and as a mother, its a family fun event!
+
 ### Goals of the Website
 
 •	Fun, interactive cartoon quiz
@@ -200,9 +210,11 @@ Store user scores
 
 • Currently the 10 questions have been written out as one quiz, in the future, I would like to add multiple quizzes for different levels. Easy, Medium, Hard and Extremely Hard.
 
-• In the future, I would like to add functionality so that users can select which cartoon film they want to be quizzed on, or which cartoon character or even the which company, i.e Disney, Pixar, Disneyworks etc
+• In the future, I would like to add functionality so that users can select which cartoon film they want to be quizzed on, or which cartoon character or even the company, i.e Disney, Pixar, Disneyworks etc
 
 • In the future I would like to be able to save the users details, so that every time they return they can continue where they left off, play new quizzes, break more records, attempt to beat previous or new high scores.
+
+• I would also like to be able to make this multi player, so as to save scores; best scores, best time and best topic.
 
 
 ## Design
@@ -216,6 +228,8 @@ Store user scores
 
 •	Wireframes - Desktop Wireframes, Tablet Wireframes, Smartphone Wireframes
 
+• The criterion as set out above in my user stories and the mockups designed match the final design that was developed in Gitpod and shows the final version that has been deployed. The colour theme, the layout, the buttons and functionality all match.
+
 
 
 ## Technologies Used
@@ -223,21 +237,35 @@ Store user scores
 Languages Used
 
 •	[HTML5](https://en.wikipedia.org/wiki/HTML5)
+
 •	[CSS3](https://en.wikipedia.org/wiki/CSS)
+
 •	[Javascript](https://en.wikipedia.org/wiki/JavaScript)
+
 •	[Bootstrap](https://getbootstrap.com/)
+
 • [JQuery](https://jquery.com/)
+
 • [CDN](https://cdnjs.com/)
+
+• [Ajax](https://cdnjs.com/libraries/jquery) 
 
 Frameworks, Libraries & Programs Used
 
 •	[Google Fonts](https://fonts.google.com/) - was used to import the Bungee font 
+
 •	[Google Images](https://www.google.co.uk/imghp?hl=en&ogbl) – this was used to obtain the character images used on the website
+
 •	[Gitpod](https://gitpod.io/workspaces) – Gitpod was used as the IDE to develop and code this website
+
 •	[GitHub](https://github.com) - is used as the repository for the projects code after being pushed from Gitpod
+
   [Git](https://git-scm.com/) - was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
+  
 •	[Bootstrap](https://getbootstrap.com/) - The website uses Bootstrap4 to simplify the structure and makes it mobile friendly and responsive
+
 •	[Illustrator](https://www.adobe.com/uk/products/illustrator.html?mv=search&mv=search&sdid=KCJMVLF6&ef_id=Cj0KCQjwheyUBhD-ARIsAHJNM-PrPskmetfx_x3IOQtHtu_2J3Cd2rT16aQk-TBEfrPW86J5d-jaQS4aAqwzEALw_wcB:G:s&s_kwcid=AL!3085!3!520938467018!e!!g!!illustrator!1426208085!56320331672&gclid=Cj0KCQjwheyUBhD-ARIsAHJNM-PrPskmetfx_x3IOQtHtu_2J3Cd2rT16aQk-TBEfrPW86J5d-jaQS4aAqwzEALw_wcB) – this was used to design the website and the logo
+
 •	[Balsamiq](https://balsamiq.com/) - was used to create the wireframes during the design process
 
 
