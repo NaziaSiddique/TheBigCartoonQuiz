@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
 
 body {
-  font-family: 'Bungee', cursive;
+  font-family: "Bungee", cursive;
 }
 img {
   max-width: 100%;
@@ -156,7 +156,7 @@ img {
   position: relative;
 }
 .quizBlock .form-group.required:after {
-  content: 'Please Enter The Name';
+  content: "Please Enter The Name";
   position: absolute;
   font-size: 12px;
   color: red;
